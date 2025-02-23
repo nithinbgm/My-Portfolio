@@ -3,59 +3,121 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NithinMamidiDev.com</title>
-  <link rel="stylesheet" href="styles.css">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="styles.css">
+  <title>Portfolio</title>
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  
-  <section id="home">
-    <h1>Welcome to My Portfolio</h1>
-    <p>Hi, I'm Nithin Goud Mamidi, a passionate Java Developer.</p>
-  </section>
-
-  <section id="about">
-    <h2>About Me</h2>
-    <p>[Brief description of your background]</p>
-  </section>
-
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>Java</li>
-      <li>MySQL</li>
-      <li>Spring Boot</li>
-      <!-- Add more -->
-    </ul>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <div>
-      <h3>Project 1</h3>
-      <p>Description of project 1</p>
-      <a href="https://github.com/nithinbgm">GitHub Link</a>
+   
+  <!--NAVBAR-->
+  <nav>
+    <div class="left">
+      <a href="/">Nithin Goud Mamidi</a>
     </div>
-  </section>
+    <div class="right">
+       <a href="https://github.com/nithinbgm" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+       </a>
+       <a href="https://www.linkedin.com/in/nithin-goud-mamidi-941025230/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+       </a>
+       <a href="mailto:nithinmamidi1423@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>E-mail</span>
+       </a>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email:nithingoud1423@gmail.com</p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/nithin-goud-mamidi-941025230/">Your Profile</a></p>
-  </section>
+    </div>
+  </nav>
 
-  <footer>
-    <p>&copy; 2024 Nithin Goud Mamidi. All rights reserved.</p>
-  </footer>
+  <main>
+    <!--SECTION 1: Hero-->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Nithin 👋</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima natus eligendi voluptas totam laborum cupiditate, corporis deleniti voluptate illum officia impedit incidunt reiciendis adipisci sed tempore aperiam vero sint inventore recusandae. Aspernatur tempore nihil, ad dignissimos, corrupti in, ea numquam eum maxime facilis enim voluptatum placeat atque ducimus. Assumenda, obcaecati?</p>
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          <a href="#Projects">
+            <i class="fa-solid fa-diagram-project"></i>
+            <span>Projects</span>
+          </a>
+          <a href="#Contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+      <div class="headshot">
+        <img src="NGpp.webp" alt="Nithin Goud Mamidi headshot">
+      </div>
+    </section>
+
+    <!--SECTION 2: Skills-->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae aperiam temporibus animi corporis enim harum dolor placeat quia provident velit atque, adipisci, reiciendis consequuntur dolore tempore dicta excepturi quos quod!
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="html-logo.webp" alt="html logo">
+          <span>HTML</span>
+        </div>
+       
+
+      <div class="cell">
+        <img src="css-logo.webp" alt="css logo">
+        <span>CSS</span>
+      </div>
+
+      <div class="cell">
+        <img src="javascript-logo.webp" alt="javascript logo">
+        <span>JAVASCRIPT</span>
+      </div>
+
+      <div class="cell">
+        <img src="react-logo.webp" alt="react logo">
+        <span>REACT</span>
+      </div>
+
+      <div class="cell">
+        <img src="node-logo.webp" alt="node logo">
+        <span>NODE</span>
+      </div>
+
+      <div class="cell">
+        <img src="java-logo.jpg" alt="java logo">
+        <span>JAVA</span>
+      </div>
+    </div>
+
+    </section>
+
+    <!--SECTION 3: Projects-->
+    <section id="projects-section">
+      <h2>Projects</h2>
+      <div class="group">
+        <div class="project details"></div>
+        <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad eligendi quis consequatur error nesciunt sequi, repellat temporibus modi suscipit nemo debitis corrupti corporis fugit magnam exercitationem incidunt vel delectus nam? Officiis excepturi ad, explicabo magni, quas consequuntur recusandae reiciendis quis sint dolore tempore repellat saepe fuga, voluptas fugit beatae.</div>
+
+      </div>
+    </section>
+
+    <!--SECTION 4: Contact-->
+    <section id="Contact"></section>
+  </main>
 </body>
 </html>
